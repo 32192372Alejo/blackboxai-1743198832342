@@ -34,6 +34,18 @@ class InterviewSelectionActivity : AppCompatActivity() {
         findViewById<CardView>(R.id.cvTechnical).setOnClickListener {
             handleInterviewTypeSelection("TECHNICAL")
         }
+        findViewById<CardView>(R.id.cvSales).setOnClickListener {
+            handleInterviewTypeSelection("SALES")
+        }
+        findViewById<CardView>(R.id.cvProductManager).setOnClickListener {
+            handleInterviewTypeSelection("PRODUCT_MANAGER")
+        }
+        findViewById<CardView>(R.id.cvSoftwareEngineer).setOnClickListener {
+            handleInterviewTypeSelection("SOFTWARE_ENGINEER")
+        }
+        findViewById<CardView>(R.id.cvProductDesigner).setOnClickListener {
+            handleInterviewTypeSelection("PRODUCT_DESIGNER")
+        }
         
         // Start simulation button
         findViewById<Button>(R.id.btnStartSimulation).setOnClickListener {
